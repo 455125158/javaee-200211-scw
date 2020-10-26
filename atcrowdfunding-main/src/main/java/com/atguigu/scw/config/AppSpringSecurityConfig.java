@@ -13,7 +13,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 public class AppSpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
-//    授权
+//    授权 12
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         //1、授权首页+静态资源+登录页面 任何人都可以访问
